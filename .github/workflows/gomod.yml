@@ -1,7 +1,7 @@
 name: Go mod update
 
 env:
-  GO_VERSION: 1.18
+  GO_VERSION: 1.19
 
 on:
   workflow_dispatch:
@@ -72,8 +72,8 @@ jobs:
           this is an automagic PR, and will likely be automated in the future.
 
           until then, happy approving.
-        author: "git bot <gitbot@joshuaejs.me>"
+        author: "git bot <git@ejs.sh>"
         delete-branch:
           true
         reviewers: |
-          joshuaejs
+          ejsdotsh
