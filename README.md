@@ -3,7 +3,7 @@
 somewhat belatedly joining Exercism's #12in23 challenge - twelve new programming languages in 2023
 
 - functional february
-  - tbd from: ~~Clojure~~, Elixir, Erlang, ~~F#,~~ Haskell, OCaml, Scala, SML, Gleam
+  - ~~Clojure~~, [Elixir](Elixir.md), ~~Erlang, F#, Haskell, OCaml, Scala, SML, Gleam~~
   - exercises: Hamming, Collatz Conjecture, Robot Simulator, Yacht, Protein Translation
 - mechanical march
   - tbd from: ~~C, C++,~~ D, Nim, ~~Go, Rust, V, Zig~~
