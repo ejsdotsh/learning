@@ -1,37 +1,37 @@
 # #12in23
 
-somewhat belatedly joining Exercism's #12in23 challenge - twelve new programming languages in 2023
+somewhat belatedly joining Exercism's #12in23 challenge - twelve (new) programming languages in 2023
 
-- functional february
-  - ~~Clojure~~, [Elixir](Elixir.md), ~~Erlang, F#, Haskell, OCaml, Scala, SML, Gleam~~
+- Functional February
+  - [Clojure](clojure.md)
   - exercises: Hamming, Collatz Conjecture, Robot Simulator, Yacht, Protein Translation
-- mechanical march
-  - tbd from: ~~C, C++,~~ D, Nim, ~~Go, Rust, V, Zig~~
+- Mechanical March
+  - [Go](go.md)
   - exercises: Linked List (or Simple Linked List), Secret Handshake, Sieve, Binary Search, Pangram
-- analytical april
-  - [Julia](Julia.md), ~~Python, R~~
-  - exercises: ETL, Largest Series Product, Saddle Points, Sum Of Multiples, Word Count
-- mindshifting may
-  - ~~Ballerina, Pharo,~~ [Prolog](Prolog.md), ~~Red, Rust, Tcl, Unison~~
+- Analytical April
+  - [Python](python/)
+  - exercises: [ETL](python/etl.py), Largest Series Product, Saddle Points, Sum Of Multiples, Word Count
+- Mindshifting May
+  - [Rust](rust.md)
   - exercises: Acronym, Isogram, Roman Numerals, Raindrops, Space Age
-- summer of sexps
-  - ~~Common Lisp,~~ [Clojure](Clojure.md), ~~EFL, Emacs Lisp, Racket,~~ [Scheme](Scheme.md)
+- Summer of Sexps
+  - [Scheme](scheme.md)
   - exercises: Difference of Squares, Leap, Matching Brackets, Robot Name, Two-Fer
-- jurassic july
-  - ~~Fortran,~~ [COBOL](COBOL.md), ~~VB, C~~
+- Jurassic July
+  - [C](c.md)
+  - exercises: Bob, Allergies, Reverse String, High Scores, Armstrong Numbers
+- Apps of August
+  - [Java](java.md)
+  - exercises: Anagram, Phone Number, Triangle, RNA Transcription, Scrabble Score
+- Slimline September
+  - Perl, AWK, [JQ](jq.md), Bash
   - exercises: tbd
-- apps of august
-  - JavaScript, ~~Kotlin, Swift, Dart, ABAP~~
+- Object Oriented October
+  - Ruby, ~~C#, Crystal, Pharo~~
   - exercises: tbd
-- slimline september
-  - ~~Perl, AWK,~~ [JQ](JQ.md), ~~Bash~~
+- Nibbly November
+  - tbd from: x86-64 Assembly, WASM
   - exercises: tbd
-- object oriented october
-  - ~~Ruby, C#, Crystal,~~ [Pharo](Pharo.md)
-  - exercises: tbd
-- nibbly november
-  - tbd from: x86-64 Assembly, ~~WASM~~
-  - exercises: tbd
-- december diversions
+- December Diversions
   - tbd from: Groovy, Lua, Wren
   - exercises: tbd
