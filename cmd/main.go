@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/joshuaejs/generative-art/sketch"
+	"github.com/ejsdotsh/learning-generative-art/sketch"
 )
 
 var (
@@ -95,7 +95,7 @@ func main() {
 		StrokeJitter:             int(0.1 * float64(destWidth)),
 		InitialAlpha:             0.1,
 		AlphaIncrease:            0.06,
-		MinEdgeCount:             3,
+		MinEdgeCount:             5,
 		MaxEdgeCount:             16,
 	})
 

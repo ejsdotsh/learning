@@ -1,4 +1,4 @@
-module github.com/joshuaejs/generative-art
+module github.com/ejsdotsh/learning-generative-art
 
 go 1.17
 
