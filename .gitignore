@@ -13,6 +13,8 @@
 !*.go
 !go.sum
 !go.mod
+!go.work
+!go.work.sum
 
 !*.md
 !LICENSE
