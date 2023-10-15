@@ -10,10 +10,13 @@
 # allow
 !/.gitignore
 !LICENSE
-
+!README.md
 !Makefile
 
 # Go
+!gocli/**
+!dcls/**
+!genart/**
 !*.go
 !go.sum
 !go.mod
@@ -24,13 +27,18 @@
 # protobuf
 !*.proto
 
-!*.md
-!*.html
-!autopreview.sh
+# one document directory to unite them all
+!docs/**/!*.md
+
+# The Recursive Book of Recursion
+!trbor/**
 
 # ...even if they are in subdirectories
 !*/
 
 # always ignore
 exp/
+venv/
+.env
+.venv
 
