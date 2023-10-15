@@ -1,4 +1,4 @@
-module github.com/joshuaejs/performance/colstats
+module github.com/ejsdotsh/gocli/performance/colstats
 
 go 1.18
 
