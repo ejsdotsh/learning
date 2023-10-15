@@ -7,35 +7,25 @@
 # Ignore everything
 *
 
-<<<<<<< HEAD
-# apply rules to subdirectories
-!*/
-
 # allow
-=======
-# But not these files...
->>>>>>> gocli/main
 !/.gitignore
+!LICENSE
 
+!Makefile
+
+# Go
 !*.go
 !go.sum
 !go.mod
-<<<<<<< HEAD
-
-!*.md
-!LICENSE
-
-!Makefile
-=======
 !go.work
 !go.work.sum
+!*.gohtml
+
+# protobuf
+!*.proto
 
 !*.md
-!LICENSE
-!Makefile
-
 !*.html
-!*.gohtml
 !autopreview.sh
 
 # ...even if they are in subdirectories
@@ -43,4 +33,4 @@
 
 # always ignore
 exp/
->>>>>>> gocli/main
+
