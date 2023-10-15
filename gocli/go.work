@@ -1,4 +1,4 @@
-go 1.21
+go 1.21.1
 
 toolchain go1.21.3
 
@@ -6,6 +6,9 @@ use (
 	./fs/walk
 	./mdp
 	./performance/colstats
+	./processes/goci
+	./processes/goci/testdata/tool
+	./processes/goci/testdata/toolErr
 	./todo
 	./utils
 	./wc
