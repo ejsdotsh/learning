@@ -5,25 +5,56 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"os/exec"
 )
+
+type executer interface {
+	execute() (string, error)
+}
 
 func run(proj string, out io.Writer) error {
 	if proj == "" {
 		return fmt.Errorf("project directory is required: %w", ErrValidation)
 	}
 
-	args := []string{"build", ".", "errors"}
+	pipeline := make([]executer, 3)
 
-	cmd := exec.Command("go", args...)
-	cmd.Dir = proj
+	pipeline[0] = newStep(
+		"go build",
+		"go",
+		"go build: success",
+		proj,
+		[]string{"build", ".", "errors"},
+	)
 
-	if err := cmd.Run(); err != nil {
-		return &stepErr{step: "go build", msg: "go build failed", cause: err}
+	pipeline[1] = newStep(
+		"go test",
+		"go",
+		"go test: success",
+		proj,
+		[]string{"test", "-v"},
+	)
+
+	pipeline[2] = newExceptionStep(
+		"go fmt",
+		"gofmt",
+		"gofmt: success",
+		proj,
+		[]string{"-l", "."},
+	)
+
+	for _, s := range pipeline {
+		msg, err := s.execute()
+		if err != nil {
+			return err
+		}
+
+		_, err = fmt.Fprintln(out, msg)
+		if err != nil {
+			return err
+		}
 	}
-	_, err := fmt.Fprintln(out, "go build: success")
 
-	return err
+	return nil
 }
 
 func main() {

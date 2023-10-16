@@ -14,11 +14,14 @@ func TestRun(t *testing.T) {
 		expErr error
 	}{
 		{name: "success", proj: "./testdata/tool/",
-			out:    "go build: success\n",
+			out:    "go build: success\ngo test: success\ngofmt: success\n",
 			expErr: nil},
 		{name: "fail", proj: "./testdata/toolErr",
 			out:    "",
 			expErr: &stepErr{step: "go build"}},
+		{name: "failFormat", proj: "./testdata/toolFmtErr",
+			out:    "",
+			expErr: &stepErr{step: "go fmt"}},
 	}
 
 	for _, tc := range testCases {
