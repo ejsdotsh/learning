@@ -6,12 +6,13 @@ import (
 	"os/exec"
 )
 
+// exceptionStep extends the step type by embedding it
 type exceptionStep struct {
 	step
 }
 
+// newExceptionStep reuses the constructor from the embedded `step` type
 func newExceptionStep(name, exe, message, proj string, args []string) exceptionStep {
-
 	s := exceptionStep{}
 
 	s.step = newStep(name, exe, message, proj, args)
@@ -19,6 +20,7 @@ func newExceptionStep(name, exe, message, proj string, args []string) exceptionS
 	return s
 }
 
+// execute implements the `executer` interface
 func (s exceptionStep) execute() (string, error) {
 	cmd := exec.Command(s.exe, s.args...)
 

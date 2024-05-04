@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/joshuaejs/monkey/ast"
-	"github.com/joshuaejs/monkey/lexer"
+	"github.com/ejsdotsh/learning/monkey/ast"
+	"github.com/ejsdotsh/learning/monkey/lexer"
 )
 
 func TestLetStatement(t *testing.T) {
@@ -42,7 +42,6 @@ func TestLetStatement(t *testing.T) {
 			return
 		}
 	}
-
 }
 
 func TestReturnStatement(t *testing.T) {

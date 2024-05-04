@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/joshuaejs/monkey/repl"
+	"github.com/ejsdotsh/learning/monkey/repl"
 )
 
 func main() {

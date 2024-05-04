@@ -7,9 +7,9 @@ import (
 type step struct {
 	name    string
 	exe     string
-	args    []string
 	message string
 	proj    string
+	args    []string
 }
 
 func newStep(name, exe, message, proj string, args []string) step {
@@ -17,8 +17,8 @@ func newStep(name, exe, message, proj string, args []string) step {
 		name:    name,
 		exe:     exe,
 		message: message,
-		args:    args,
 		proj:    proj,
+		args:    args,
 	}
 }
 

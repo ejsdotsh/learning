@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/joshuaejs/monkey/lexer"
-	"github.com/joshuaejs/monkey/parser"
+	"github.com/ejsdotsh/learning/monkey/lexer"
+	"github.com/ejsdotsh/learning/monkey/parser"
 )
 
 const PROMPT = ">> "

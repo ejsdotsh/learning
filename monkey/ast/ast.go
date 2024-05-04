@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/joshuaejs/monkey/token"
+	"github.com/ejsdotsh/learning/monkey/token"
 )
 
 // Node defines a node in the AST.

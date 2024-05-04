@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/joshuaejs/monkey/ast"
-	"github.com/joshuaejs/monkey/lexer"
-	"github.com/joshuaejs/monkey/token"
+	"github.com/ejsdotsh/learning/monkey/ast"
+	"github.com/ejsdotsh/learning/monkey/lexer"
+	"github.com/ejsdotsh/learning/monkey/token"
 )
 
 const (

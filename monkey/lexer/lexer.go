@@ -3,7 +3,7 @@
 
 package lexer
 
-import "github.com/joshuaejs/monkey/token"
+import "github.com/ejsdotsh/learning/monkey/token"
 
 // Lexer
 type Lexer struct {

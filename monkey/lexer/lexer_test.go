@@ -5,7 +5,7 @@ package lexer
 import (
 	"testing"
 
-	"github.com/joshuaejs/monkey/token"
+	"github.com/ejsdotsh/learning/monkey/token"
 )
 
 func TestNextToken(t *testing.T) {

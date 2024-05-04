@@ -5,7 +5,7 @@ package ast
 import (
 	"testing"
 
-	"github.com/joshuaejs/monkey/token"
+	"github.com/ejsdotsh/learning/monkey/token"
 )
 
 func TestString(t *testing.T) {
