@@ -1,8 +1,7 @@
 module mdp
 
 go 1.21
-
-toolchain go1.21.3
+toolchain go1.24.1
 
 require (
 	github.com/microcosm-cc/bluemonday v1.0.26
@@ -12,5 +11,5 @@ require (
 require (
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
-	golang.org/x/net v0.33.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
 )
