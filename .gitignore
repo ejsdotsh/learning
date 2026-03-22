@@ -13,7 +13,7 @@
 
 # allow
 !/.gitignore
-!LICENSE
+!LICENSES/*.txt
 !README.md
 !Makefile
 !reuse.spdx
@@ -34,7 +34,7 @@
 !*.proto
 
 # one document directory to unite them all
-!docs/**/!*.md
+!docs/**/*.md
 
 # The Recursive Book of Recursion
 !trbor/**
