@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021-present j e.j. sahala <jejs@sahala.org>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 // parser/parser.go
 // parser is a recursive descent parser, specifically, a "top down operator
 // precedence" parser, or "(Vaughan) Pratt parser" that reads the tokens from

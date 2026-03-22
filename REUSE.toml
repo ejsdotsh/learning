@@ -1,0 +1,9 @@
+version = 1
+
+[[annotations]]
+path = "exercism/**"
+SPDX-FileCopyrightText = [
+  "Exercism exercism.org",
+  "j e.j. sahala <jejs@sahala.org>",
+]
+SPDX-License-Identifier = "MIT"

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021-present j e.j. sahala <jejs@sahala.org>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 // index defines the log's index, which consists of a persisted file and a
 // memory-mapped file.
 

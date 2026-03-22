@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021-present j e.j. sahala <jejs@sahala.org>
+
+SPDX-License-Identifier: MPL-2.0
+-->
+
 # Learning projects monorepo
 
 - [Distributed Services with Go](https://pragprog.com/titles/tjgo/distributed-services-with-go/)

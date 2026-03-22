@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021-present j e.j. sahala <jejs@sahala.org>
+#
+# SPDX-License-Identifier: MPL-2.0
+
 # Allowlisting gitignore template for GO projects prevents us
 # from adding various unwanted local files, such as generated
 # files, developer configurations or IDE-specific files etc.
@@ -12,6 +16,8 @@
 !LICENSE
 !README.md
 !Makefile
+!reuse.spdx
+!REUSE.toml
 
 # Go
 !gocli/**

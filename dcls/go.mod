@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021-present j e.j. sahala <jejs@sahala.org>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 module github.com/joshuaejs/godcls
 
 go 1.24.0

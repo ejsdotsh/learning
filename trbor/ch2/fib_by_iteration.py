@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021-present j e.j. sahala <jejs@sahala.org>
+#
+# SPDX-License-Identifier: MPL-2.0
+
 def fibonacci(nth_number) -> int:
     a, b = 1, 1
     print(f"a = {a}, b = {b}")

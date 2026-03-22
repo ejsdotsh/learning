@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021-present j e.j. sahala <jejs@sahala.org>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 // segment wraps the index and store types to coordinate operations across the
 // two.
 

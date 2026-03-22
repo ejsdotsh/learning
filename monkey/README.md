@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021-present j e.j. sahala <jejs@sahala.org>
+
+SPDX-License-Identifier: MPL-2.0
+-->
+
 # Monkey
 
 my implementation of the Monkey programming language from [Writing An Interpreter In Go](https://interpreterbook.com/).
